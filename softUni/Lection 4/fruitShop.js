@@ -21,18 +21,18 @@ function fruitShop(input) {
       console.log(`error`);
   }
 
-  //   switch (fruit) {
-  //     case "banana":
-  //     case "banana":
-  //     case "orange":
-  //     case "grapefruit":
-  //     case "kiwi":
-  //     case "pineapple":
-  //     case "grapes":
-  //       break;
-  //     default:
-  //       console.log(`error`);
-  //   }
+    switch (fruit) {
+      case "banana":
+      case "apple":
+      case "orange":
+      case "grapefruit":
+      case "kiwi":
+      case "pineapple":
+      case "grapes":
+        break;
+      default:
+        console.log(`error`);
+    }
 
   if (fruit == "banana" && weekend == false) {
     let price = qty * 2.5;
@@ -79,4 +79,4 @@ function fruitShop(input) {
   }
 }
 
-fruitShop([`banan`, `Satrday`, `2`]);
+fruitShop([`aple`, `Moday`, `20`]);
