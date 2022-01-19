@@ -1,0 +1,139 @@
+body {
+  font-family: sans-serif;
+  background-color: #eee;
+  text-align: center;
+}
+
+#header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  height: 80px;
+  margin: 0px;
+  padding: 0px 10px;
+  width: 100%;
+  font-size: small;
+  background-color: rgb(224, 223, 223);
+  min-height: 75px;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.headerBox {
+  flex: auto;
+  height: 60px;
+  flex-wrap: wrap;
+  margin: 0px;
+  justify-content: space-around;
+}
+
+#headerLogo {
+  width: 75px;
+  height: auto;
+  margin: 0px;
+  float: left;
+  
+}
+
+.logoBox {
+  width: 60px;
+  display: flex;
+  margin-top: 20px;
+}
+
+#headerTitle {
+  float: left;
+  font-family: "Imperial Script";
+  font-size: 60px;
+  align-items: center;
+  padding-bottom: 10px;
+  margin: 0px;
+  
+}
+
+#nav-bar {
+  margin-top: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link {
+  margin: 0px 10px;
+  
+  text-align: end;
+}
+
+ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+li {
+  font-size: 23px;
+  margin: 5px;
+  padding: 0px;
+}
+
+form {
+  margin-top: 100px;
+  padding: 20px;
+  
+}
+#buttonInput {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 6px;
+  background: transparent;
+  background-color: rgb(250, 159, 12);
+  cursor: pointer;
+}
+
+#textInput {
+  width: 23%;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+section {
+  margin-top: 50px;
+  border: solid black 3px;
+  display: flex;
+  flex-flow: column;
+  width: 20vw;
+  
+}
+
+.featuresBox {
+  border: black solid 3px;
+  display: flex;
+  flex-basis: auto;
+}
+
+iframe {
+  margin-top: 50px;
+  border: solid black 3px;
+}
+
+.container {
+  margin-top: 50px;
+  border: solid black 3px;
+  display: flex;
+}
+
+.box {
+  flex: auto;
+  border: solid black 3px;
+}
+
+footer {
+  margin-top: 50px;
+  border: solid black 3px;
+}
