@@ -1,48 +1,41 @@
-<head>
-  <style>
-    ul {
-      background-color: #eee;
-      padding: 1rem;
-      list-style-type: none;
-      text-align: center;
-      max-width: max-content;
-    }
-    li {
-      display: inline;
-      font-size: 2em;
-      padding: 10rem 1rem;
-    }
-  </style>
-</head>
-<body>
-  <details>
-    <summary>
-      papa
-    </summary>
-    <p>paca</p>
-  </details>
-
-  <form action="#">
-    <input type="text">
-    <input type="tel" required>
-    <input type="submit">
-
-    <select name="" id="">
-      <option value="">paca</option>
-      <option value="">paca</option>
-      <option value="">paca </option>
-    </select>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     
+    <style>
+      .container {
+        background-color: aqua;
+        border: black solid 1px;
+        min-height: 50em;
+        max-height: 50em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        flex-flow: column;
+        
+      }
 
-  </form>
+      .box {
+        border:solid black 1px;
+        background-color: blueviolet;
+        min-width: 10em;
+        height: 10em;
+        
 
-  <br><br><br><br><br><br><br>
-<ul>
-  <li>paca</li>
-  <li>paca</li>
-  <li>paca</li>
-  <li>paca</li>
-</ul>
+      }
+    </style>
 
-
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box">.</div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>

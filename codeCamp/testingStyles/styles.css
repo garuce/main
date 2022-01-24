@@ -1,0 +1,51 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(245, 245, 245);
+}
+
+.container {
+  /* min-width: 70%; */
+  max-width: 80%;
+  display: grid;
+  margin: 3rem auto;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3em;
+}
+
+.box {
+    border-radius: 1em;
+    padding: 0 2em;
+}
+
+.box-1 {
+    background-color: hsla(278, 92%, 54%, 0.719);
+    color: white;
+}
+
+.box-2 {
+    background-color: rgb(148, 148, 148);
+    color: white;
+}
+
+.box-3 {
+    background-color: white;
+    color: rgb(8, 8, 8);
+}
+
+.box-4 {
+    background-color: white;
+    color: black;
+}
+
+.box-5 {
+    background-color: rgb(49, 54, 71);
+    color: white;
+}
+
+.grid-span-2 {
+    grid-column: span 2;
+}
+
+.grid-row-2 {
+    grid-row: span 2;
+}
