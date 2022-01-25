@@ -14,8 +14,10 @@ body {
 
 main {
   display: flex;
-  width: 1440px;
-  height: 800px;
+  max-width: 375px;
+  min-width: 1440px;
+  max-height: 667px;
+  min-height: 800px;
   justify-content: center;
   align-items: center;
   font-family: "Outfit";
@@ -27,6 +29,8 @@ main {
 .container {
   display: flex;
   flex-flow: column;
+  width: auto;
+  height: auto;
   /* width: 24em;
   height: 28em; */
   padding: 0;
@@ -49,7 +53,6 @@ h1 {
   margin-bottom: 0.5em;
   font-size: 22px;
   width: 12em;
-  
 }
 
 p {
