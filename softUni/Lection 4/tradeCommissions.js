@@ -1,6 +1,4 @@
-function trade(inp) {
-    const city = inp[0];
-    const trades = Number(inp[1]);
-
-    
+function trade(input) {
+  const city = input[0];
+  const trades = Number(input[1]);
 }

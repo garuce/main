@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NFT preview card component</title>
+
+    <!-- favicon import -->
+
     <link
       rel="shortcut icon"
       href="./nft-preview-card-component-main/images/favicon-32x32.png"
       type="image/x-icon"
     />
+
+    <!-- Outfit Google font import -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,39 +24,59 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <div class="shadowLight">
-      <div class="shadowDark">
-        <div class="card">
-          <img class="nft"
-            src="./nft-preview-card-component-main/images/image-equilibrium.jpg"
-            alt="nftImage"
+    <!-- card flexbox that holds everything -->
+
+    <div class="card">
+      <!-- nft main image -->
+
+      <img
+        class="nft"
+        src="./nft-preview-card-component-main/images/image-equilibrium.jpg"
+        alt="nftImage"
+      />
+
+      <!-- card text -->
+
+      <div>
+        <p class="title">Equilibrium #3429</p>
+        <p class="description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+      </div>
+
+      <!-- NFT card metrics wrapper -->
+
+      <div class="wrapper">
+        <div class="metrics">
+          <img
+            class="ethLogo"
+            src="./nft-preview-card-component-main/images/icon-ethereum.svg"
+            alt="ethLogo"
           />
-          <p class="title">Equilibrium #3429</p>
-          <p class="description">Our Equilibrium collection promotes balance and calm.</p>
-          <img class="ethLogo"
-              src="./nft-preview-card-component-main/images/icon-ethereum.svg"
-              alt="ethLogo"
-            />
-          <p class="eth">
-            0.041 ETH
-          </p>
-          <img class="clockLogo"
-              src="./nft-preview-card-component-main/images/icon-clock.svg"
-              alt="clockLogo"
-            />
-          <p class="clock">
-            3 days left
-          </p>
-          <hr />
-          <img class="avatar"
-              src="./nft-preview-card-component-main/images/image-avatar.png"
-              alt="profilePic"
-            />
-          <p class="creation">
-            Creation of <span>Jules Wyvern</span>
-          </p>
+          <p class="eth">0.041 ETH</p>
         </div>
+
+        <div class="metrics">
+          <img
+            class="clockLogo"
+            src="./nft-preview-card-component-main/images/icon-clock.svg"
+            alt="clockLogo"
+          />
+          <p class="clock">3 days left</p>
+        </div>
+      </div>
+
+      <!-- footer of the card -->
+
+      <div class="footer">
+        <img
+          class="avatar"
+          src="./nft-preview-card-component-main/images/image-avatar.png"
+          alt="profilePic"
+        />
+        <p class="creation">Creation of <span>Jules Wyvern</span></p>
       </div>
     </div>
   </body>
