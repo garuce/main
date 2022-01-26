@@ -1,0 +1,89 @@
+:root {
+  font-family: "Outfit";
+  font-size: 18px;
+  --softBlue: hsla(215, 52%, 70%, 0.89);
+  --cyan: hsl(178, 100%, 50%);
+
+  --mainDarkBlue: hsl(217, 54%, 11%);
+  --cardDarkBlue: hsl(216, 50%, 16%);
+  --lineDarkBlue: hsl(215, 32%, 27%);
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: var(--cardDarkBlue);
+}
+
+.card {
+  border: black solid 2px;
+  width: 19rem;
+  height: 40em;
+  display: flex;
+  background-color: var(--lineDarkBlue);
+  flex-flow: column;
+  flex-wrap: wrap;
+}
+
+.nft {
+  width: 17rem;
+
+  margin-left: 1em;
+  margin-top: 1em;
+
+  border-radius: 0.5em;
+}
+
+.title {
+  font-size: 1.5em;
+  color: white;
+  margin-left: 0.7em;
+  margin-top: 0.5em;
+  font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+}
+
+.description {
+  margin-left: 1em;
+  color: var(--softBlue);
+}
+
+.eth {
+  width: 5em;
+  border: solid black 0.1em;
+  color: var(--cyan);
+  font-weight: 600;
+}
+
+.ethLogo {
+  border: solid black 0.1em;
+  width: 1.1em;
+}
+
+.clock {
+  width: 5em;
+  border: solid black 0.1em;
+  color: var(--softBlue);
+}
+
+.clockLogo {
+  border: solid black 0.1em;
+}
+
+.avatar {
+  width: 1.8rem;
+  border: white solid 0.1em;
+  border-radius: 100%;
+  margin-top: 0.1em;
+}
+
+.creation {
+    color: var(--softBlue);
+}
+span{
+    color: white;
+}
