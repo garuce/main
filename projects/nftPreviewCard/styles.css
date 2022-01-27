@@ -16,6 +16,8 @@ body {
   background-color: var(--cardDarkBlue);
 }
 
+/* card holder and flexbox */
+
 .card {
   border: black solid 2px;
   width: 19rem;
@@ -26,6 +28,8 @@ body {
   flex-wrap: wrap;
 }
 
+/* main image class and flex component */
+
 .nft {
   width: 17rem;
 
@@ -35,22 +39,36 @@ body {
   border-radius: 0.5em;
 }
 
-.title {
-  font-size: 1.5em;
-  color: white;
-  margin-left: 0.7em;
-  margin-top: 0.5em;
-  font-weight: 600;
+/* paragraphs box and flex component */
+
+.paragraphsBox {
+  font-weight: 400;
 }
 
-p {
-    font-weight: 400;
+/* components of the paragraphsBox */
+
+.title {
+  font-weight: 600;
 }
 
 .description {
   margin-left: 1em;
   color: var(--softBlue);
 }
+
+/* flexbox for the metrics */
+
+.wrapper {
+  display: flex;
+}
+
+/* 2 flex component boxes for each metrics component */
+
+.metrics {
+  display: flex;
+}
+
+/* flex component of the metrics flexbox */
 
 .eth {
   width: 5em;
@@ -74,6 +92,14 @@ p {
   border: solid black 0.1em;
 }
 
+/* footer flexbox */
+
+.footer {
+  display: flex;
+}
+
+/* footer image flex components */
+
 .avatar {
   width: 1.8rem;
   border: white solid 0.1em;
@@ -82,8 +108,9 @@ p {
 }
 
 .creation {
-    color: var(--softBlue);
+  color: var(--softBlue);
 }
-span{
-    color: white;
+
+span {
+  color: white;
 }
