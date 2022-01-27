@@ -26,6 +26,14 @@ main {
   background-color: var(--lightGrayish);
 }
 
+@media screen and (max-width: 375px) {
+  main {
+    width: 375px;
+
+    height: 800px;
+  }
+}
+
 .container {
   display: flex;
   flex-flow: column;
