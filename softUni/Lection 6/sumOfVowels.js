@@ -2,7 +2,7 @@ function solve(input) {
   const text = input[0];
   let sum = 0;
   for (let i = 0; i < text.length; i++) {
-    switch (text.charAt(i)) {
+    switch (text[i]) {
       case "a":
         sum += 1;
         break;

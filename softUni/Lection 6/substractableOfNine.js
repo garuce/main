@@ -10,11 +10,11 @@ function solve(input) {
   for (let i = n; i < m; i++) {
     if (i % 9 === 0) {
       sum += i;
-      outputNumbers += `${i} `;
+      outputNumbers += `${i}\n`;
     }
   }
 
-  console.log(sum);
+  console.log(`The sum: ${sum}`);
 
   console.log(outputNumbers);
 }

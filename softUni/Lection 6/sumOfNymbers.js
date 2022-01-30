@@ -4,7 +4,7 @@ function solve(input) {
   for (let i = 0; i < num.length; i++) {
     sum = sum + Number(num[i]);
   }
-  console.log(sum);
+  console.log(`The sum of the digits is:${sum}`);
 }
 
 solve([`10458`]);
