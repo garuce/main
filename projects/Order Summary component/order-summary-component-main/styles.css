@@ -1,0 +1,22 @@
+body {
+  min-height: 51vw;
+  width: 100%;
+  background: hsl(225, 100%, 98%);
+  position: relative;
+}
+
+svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.pa {
+  background-color: hsl(225, 100%, 94%);
+}
+.pac {
+  background-color: hsl(224, 23%, 55%);
+}
+
+.paca {
+  background-color: hsl(225, 100%, 98%);
+}
