@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My Website</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -21,9 +33,9 @@
       <section>
         <h2>Linus Torvald</h2>
         <hr />
-        <div class="imgage">
+        <div class="hero">
           <img src="linus-torvalds-400x298_0-595x432.jpg" />
-          <p class="next-to-picture">
+          <p class="heroText">
             Linus Benedict Torvalds is a Finnish software engineer who is the
             creator and, historically, the lead developer of the Linux kernel,
             used by Linux distributions and other operating systems such as
@@ -35,6 +47,7 @@
             >
           </p>
         </div>
+        <hr />
         <h2>Autobiography</h2>
         <p class="columns">
           Torvalds was born in Helsinki, Finland, the son of journalists Anna
@@ -72,66 +85,133 @@
           MINIX copy, which in turn enabled him to begin work on Linux.
         </p>
       </section>
-      <section>
-        <h2>Skills</h2>
+      <hr />
+      <section class="listOfAchievements">
+        <h2>Awards and Achievements</h2>
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>jQuery</li>
+          <li>
+            In 1991, he purchased the Intel 80386-based IBM PC and obtained a
+            MINIX operating system. <br />With this, he began to work and
+            research on the Linux operating system.
+          </li>
+          <li>
+            In 1996, he went on a visit to the technology firm, ‘Transmeta’,
+            where he began to work from the following year. <br />He later
+            worked for the Open Source Development Labs.
+          </li>
+          <li>
+            From 1997 to 1999, he worked on the '86open' project, which is a
+            binary file format for the ‘Unix’ and Unix-like operating
+            systems.<br />
+            They were to be used on a common x86 PC.
+          </li>
+          <li>
+            In 1999, he was offered stock options for his creation by the
+            companies, Red Hat and VA Linux. <br />That very year, the stock
+            prices increased to about $20 million after the companies went
+            public.
+          </li>
+          <li>
+            In June 2004, along with his family, he relocated to Beaverton,
+            Oregon, where Open Source Development Labs was headquartered.
+            <br />The following year, he developed the software, ‘Git’.
+          </li>
+          <li>
+            By 2006, about two per cent of the Linux kernel was written by him,
+            which was a significant contribution.
+          </li>
+          <li>
+            In 2012, he stated that his contribution to the Linux kernel mostly
+            involved merging codes that were already written by others and did
+            not involve much programming.
+          </li>
         </ul>
       </section>
+      <hr />
       <section>
-        <h2>Experience</h2>
+        <h2 class="tableOfAwards">Awards and Achievements</h2>
         <table>
           <thead>
             <tr>
-              <th>Company</th>
-              <th>Position</th>
+              <th>Award</th>
+              <th>Description</th>
               <th>Years</th>
             </tr>
           </thead>
           <tbody>
             <tr class="row">
-              <td>ABC Corp</td>
-              <td>Web Developer</td>
-              <td>2010-2015</td>
+              <td>9793 Torvalds</td>
+              <td>Asteroid 9793 Torvalds was named after him.</td>
+              <td>1996</td>
             </tr>
             <tr class="row">
-              <td>XYZ Inc</td>
-              <td>Front-End Developer</td>
-              <td>2015-2020</td>
+              <td>EFF Pioneer Award</td>
+              <td>Torvalds received an EFF Pioneer Award.</td>
+              <td>1998</td>
             </tr>
             <tr class="row">
-              <td>XYZ Inc</td>
-              <td>Front-End Developer</td>
-              <td>2015-2020</td>
+              <td>Lovelace Medal</td>
+              <td>
+                Awarded the Lovelace Medal from the British Computer Society.
+              </td>
+              <td>2000</td>
             </tr>
             <tr class="row">
-              <td>XYZ Inc</td>
-              <td>Front-End Developer</td>
-              <td>2015-2020</td>
+              <td>Takeda Award</td>
+              <td>Takeda Award for Social/Economic Well-Being</td>
+              <td>2001</td>
             </tr>
             <tr class="row">
-              <td>XYZ Inc</td>
-              <td>Front-End Developer</td>
-              <td>2015-2020</td>
+              <td>Vollum Award</td>
+              <td>Received the Vollum Award from Reed College.</td>
+              <td>2005</td>
+            </tr>
+            <tr class="row">
+              <td>C&C Prize</td>
+              <td>
+                Awarded the C&C Prize by the NEC Corporation in 2010 for
+                "contributions to the advancement of the information technology
+                industry,
+              </td>
+              <td>2010</td>
+            </tr>
+            <tr class="row">
+              <td>IEEE Computer Pioneer Award</td>
+              <td>Received the Vollum Award from Reed College.</td>
+              <td>2014</td>
             </tr>
           </tbody>
         </table>
       </section>
+      <hr />
       <section>
-        <h2>Gallery</h2>
-        <div class="gallery">
-          <img src="https://via.placeholder.com/300x200" alt="Image 1" />
-          <img src="https://via.placeholder.com/300x200" alt="Image 2" />
-          <img src="https://via.placeholder.com/300x200" alt="Image 3" />
-        </div>
+        <h2 class="subscribe">Subscribe to our Newsletter</h2>
+        <form method="post" name="eMailer">
+          For monthly updates
+          <input
+            type="text"
+            name="email"
+            size="26"
+            value="     Enter Address Here"
+            onFocus="this.value=''"
+            onMouseOver="window.status='Enter email address here and tell a friend about this site...'; return true"
+            onMouseOut="window.status='';return true"
+          />
+          <br />
+          <input
+            class="button"
+            type="button"
+            value="Subscribe"
+            onMouseOver="window.status='Click to send an email (with this page address) to a friend! Enter email address above...'; return true"
+            onMouseOut="window.status='';return true"
+            onClick="mailThisUrl();"
+          />
+        </form>
       </section>
     </main>
     <footer>
       <p>&copy; 2023 My Website</p>
     </footer>
-    <script src="gallery.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
